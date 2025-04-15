@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #fff;
+}
+html
+body{
+  height: 100%;
+  width: 100%;
+  background-color:#656173;
+}
+
+.box{
+  height: 80px;
+  width: 75px;
+  text-align: center;
+  align-content: center;
+  background-color: crimson;
+  border: 3px solid;
+}
+.circle{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  align-content: center;
+  background-color: lightseagreen;
+  border-radius: 50%;
+  border: 3px solid;
+}
+
+.tombhai{
+  height: 100px;
+  
+}
