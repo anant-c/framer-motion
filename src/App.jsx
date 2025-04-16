@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import './index.css'
 import { motion } from "motion/react" 
 
 const App = () => {
+  
+
   return (
     <div>
       <motion.div 
@@ -52,6 +54,29 @@ const App = () => {
       className="circle">
 
         Circle Animation  
+      </motion.div>
+
+      <motion.div 
+        drag // pakad ke kahin bhi fek do
+
+        whileDrag={{
+          rotate:45
+        }}
+        dragConstraints={{
+          left:0,
+          top:0,
+          right:1000,
+          bottom:500
+        }}
+        // dragDirectionLock={true} //ek hi direction me jaega
+        whileHover={{
+          backgroundColor:"green"
+        }}
+        whileTap={{
+          scale:0.8
+        }}
+      className="anotherbox">
+        mujhe uthao aur feko
       </motion.div>
     </div>
   )

@@ -34,3 +34,9 @@ body{
   height: 100px;
   
 }
+
+.anotherbox{
+  height: 80px;
+  width: 75px;
+  background-color: #fff;
+}
