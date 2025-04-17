@@ -28,3 +28,22 @@ animate={{
     rotate: [0,360,0,-360,0],
 }}
 </pre>
+
+**DRAG**
+<p>To drag any element</p>
+<pre>
+drag // pakad ke kahin bhi fek do
+whileDrag={{
+    rotate:45
+}}
+dragConstraints={{
+    left:0,
+    top:0,
+    right:1000,
+    bottom:500
+}}
+// dragDirectionLock={true} //ek hi direction me jaega
+</pre>
+
+
+
