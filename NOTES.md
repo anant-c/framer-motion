@@ -45,5 +45,15 @@ dragConstraints={{
 // dragDirectionLock={true} //ek hi direction me jaega
 </pre>
 
-
+**ScrollAnimation** <br>
+`import { motion, useScroll } from "motion/react" `
+<br>
+`  const scrollYProgress = useScroll().scrollYProgress;
+`
+<br>
+<pre>
+style={{
+    scaleX: scrollYProgress
+}}
+</pre>
 
